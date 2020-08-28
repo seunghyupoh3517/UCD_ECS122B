@@ -26,8 +26,10 @@ std::vector<unsigned> findMatches(const std::string& s, const std:: string& targ
             for(int y = 1; y < m; y++){
                 if(s[x+y] == target[y])
                     check = true;
-                else
+                else{
                     check = false;
+                    break; // need to break when mismatching occurs to move on
+                }
             }
             if(check){
                 matches.push_back(index);
