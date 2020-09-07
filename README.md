@@ -11,3 +11,8 @@ Programming Assignment#2
 - Improving Auxiliary Space of Subset Sum 
 - Brute-Force Subset Sum 
 - Brute-Force Independent Set
+
+Programming Assignment#3
+- Next Lexicographic Permutation
+- Z-Algorothm
+- Deconding an HMM with Dynamic Programming
